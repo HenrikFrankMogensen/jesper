@@ -1,0 +1,248 @@
+#picture {
+  display: block;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+#col-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow-white {
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  margin-top: 80px;
+}
+
+#black-white {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: -1;
+}
+
+#dark-white {
+  max-width: 100%;
+  height: auto;
+}
+
+#dark-area {
+  width: 100%;
+  height: 800px;
+  background: #333333;
+}
+
+@media (min-width: 768px) {
+  #dark-area {
+    width: 100%;
+    height: 450px;
+    background: #333333;
+  }
+}
+
+#image2 {
+  height: 110px;
+}
+
+#next-line {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+#yellow-box1 {
+  width: 110px;
+  height: 110px;
+  background: #ffd207;
+}
+
+#yellow-box2 {
+  width: 110px;
+  height: 110px;
+  background-color: #FFD207;
+}
+
+#image3 {
+  height: 110px;
+}
+
+#div-to-yellow-box-section {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  font-family: Alatsi, sans-serif;
+}
+
+#services-offered {
+  color: white;
+}
+
+#list {
+  color: rgb(255,255,255);
+}
+
+#service-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+#picture-rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.line {
+  height: 2px;
+  width: 350px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+#tilbud {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 55px;
+}
+
+#heading-yellow {
+  color: #FFD207;
+  margin-bottom: 2px;
+  border-top: 3px solid white;
+  margin-left: 10px;
+}
+
+#heading-white {
+  color: #ffffff;
+  margin-top: -10px;
+  border-bottom: 3px solid white;
+  margin-left: 10px;
+}
+
+#booking {
+  display: flex;
+  margin-top: 10px;
+}
+
+#book-yellow {
+  width: 150px;
+  height: 40px;
+  background-color: #ffd207;
+}
+
+#book-now {
+  font-size: 28px;
+  font-family: Alatsi, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3px;
+}
+
+#book-white {
+  width: 200px;
+  height: 40px;
+  background-color: #FFFFFF;
+}
+
+#book-telefon {
+  font-size: 28px;
+  padding-top: 3px;
+  padding-left: 10px;
+}
+
+#footer {
+  background-color: #333333;
+}
+
+#visit {
+  width: 300px;
+}
+
+#contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#column-2 {
+  width: 320px;
+  display: flex;
+}
+
+.yellow-text {
+  color: #ffd207;
+  font-size: 20px;
+}
+
+.foot-text-white {
+  color: #FFFFFF;
+  margin-top: -10px;
+  line-height: 15px;
+}
+
+#first-div {
+  width: 180px;
+  margin-left: -10px;
+}
+
+#second-div {
+  width: 180px;
+}
+
+#first-column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#heading1 {
+  font-weight: bold;
+  line-height: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+#tekst-paragraph-top {
+  width: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.background-grid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200vh;
+  background-image: url('../../assets/img/transparentKryds.png');
+  z-index: 0;
+  opacity: 0.15;
+}
+
+.row {
+  width: 100%;
+}
+

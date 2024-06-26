@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+.nav-bar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  z-index: 2;
+}
+
+.logo {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-links ul li a {
+  font-size: 20px;
+  padding: 10px 25px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links ul {
+  display: flex;
+}
+
+@media only screen and (max-width: 1320px) {
+  .nav-bar {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .nav-bar {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hamburger .line1 {
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    height: 0px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: white;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links ul {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links.active {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    transition: 0.5s;
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links ul li {
+    padding-top: 8px;
+    margin-left: -32px;
+  }
+}
+
+.link {
+  position: relative;
+  top: 10px;
+}
+
