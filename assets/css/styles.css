@@ -2,7 +2,7 @@
   display: block;
   margin: auto;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 #col-text {
@@ -53,7 +53,7 @@
   display: flex;
   margin-top: 25px;
   margin-bottom: 40px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 #yellow-box1 {
@@ -75,7 +75,7 @@
 #div-to-yellow-box-section {
   display: flex;
   margin-top: 25px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 #wrapper {
@@ -87,6 +87,8 @@
 
 #services-offered {
   color: white;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 
 #list {
@@ -109,13 +111,6 @@
   position: relative;
 }
 
-.line {
-  height: 2px;
-  width: 350px;
-  margin-bottom: 15px;
-  margin-top: 5px;
-}
-
 #tilbud {
   display: flex;
   flex-direction: column;
@@ -125,50 +120,55 @@
 }
 
 #heading-yellow {
+  width: 330px;
   color: #FFD207;
   margin-bottom: 2px;
   border-top: 3px solid white;
-  margin-left: 10px;
+  margin-left: 23px;
 }
 
 #heading-white {
+  width: 330px;
   color: #ffffff;
   margin-top: -10px;
   border-bottom: 3px solid white;
-  margin-left: 10px;
+  margin-left: 23px;
 }
 
 #booking {
   display: flex;
   margin-top: 10px;
+  margin-left: 20px;
 }
 
 #book-yellow {
-  width: 150px;
+  width: 145px;
   height: 40px;
   background-color: #ffd207;
 }
 
 #book-now {
-  font-size: 28px;
+  font-size: 26px;
   font-family: Alatsi, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 3px;
+  margin-top: 1px;
 }
 
 #book-white {
-  width: 200px;
+  width: 180px;
   height: 40px;
   background-color: #FFFFFF;
 }
 
 #book-telefon {
-  font-size: 28px;
+  font-size: 26px;
   padding-top: 3px;
-  padding-left: 10px;
+  padding-left: 7px;
+  margin-top: 1px;
 }
 
 #footer {
@@ -177,6 +177,7 @@
 
 #visit {
   width: 300px;
+  margin-left: 40px;
 }
 
 #contact-us {
@@ -204,7 +205,7 @@
 
 #first-div {
   width: 180px;
-  margin-left: -10px;
+  margin-left: 8px;
 }
 
 #second-div {
@@ -223,12 +224,14 @@
   line-height: 32px;
   position: relative;
   z-index: 1;
+  margin-left: 20px;
 }
 
 #tekst-paragraph-top {
   width: 300px;
   position: relative;
   z-index: 1;
+  margin-left: 20px;
 }
 
 .background-grid {
